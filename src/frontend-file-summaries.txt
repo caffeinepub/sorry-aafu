@@ -1,0 +1,6 @@
+{
+  "frontend/src/App.tsx": "Main apology page featuring heartfelt message to Aafu, photo gallery of memories, and \"forever yours with love bablet\" closing message, all styled with romantic rose/coral/peach theme and elegant typography.",
+  "frontend/src/index.css": "Global styles with custom OKLCH color system featuring warm romantic tones (rose, coral, peach, lavender) for the apology theme, with both light and dark mode support and serif font configuration.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with custom apology color palette, Playfair Display serif font family, enhanced border radius values, and improved shadow utilities for the emotional design system.",
+  "frontend/src/components/PhotoGallery.tsx": "Photo gallery component displaying 8 uploaded memories in a responsive grid layout with hover effects, loading states, and elegant styling that complements the apology theme."
+}

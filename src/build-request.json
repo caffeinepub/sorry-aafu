@@ -1,0 +1,59 @@
+{
+  "kind": "build_request",
+  "title": "Add photo gallery and 'forever yours with love bablet' message",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-4",
+      "text": "Add a photo gallery section to the apology page that displays the 8 uploaded user photos (Snapchat-1302406921.jpg, Snapchat-818160405.jpg, Snapchat-1302406921-1.jpg, Snapchat-818160405-1.jpg, Snapchat-818160405-2.jpg, Snapchat-1302406921-2.jpg, Snapchat-1302406921-3.jpg, Snapchat-818160405-3.jpg) in an elegant layout that complements the existing emotional theme",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Add this pics"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All 8 uploaded photos are displayed in the photo gallery",
+        "Photos are stored in frontend/public/assets and referenced correctly",
+        "Gallery layout is responsive and visually harmonious with the existing apology page design",
+        "Photos maintain their aspect ratios and are displayed clearly"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Display the message 'forever yours with love bablet' prominently on the apology page in a position that feels intimate and personal, using typography that matches the emotional tone of the existing content",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "write there down forever yours with love bablet"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The exact text 'forever yours with love bablet' appears on the page",
+        "Message uses elegant typography consistent with the Playfair Display or similar serif font already in use",
+        "Text placement feels natural within the existing layout and emotional flow of the page",
+        "Message is clearly visible and readable"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify the existing emotional theme colors or typography already established",
+    "Preserve the existing apology message and background image",
+    "User photos must be placed in frontend/public/assets, not routed through the backend"
+  ],
+  "nonGoals": [
+    "Backend changes are not required",
+    "Do not add photo upload functionality",
+    "Do not add interactive features like photo zoom or slideshow animations unless they enhance the emotional experience"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

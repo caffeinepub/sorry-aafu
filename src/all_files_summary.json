@@ -1,0 +1,15 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no functionality implemented.",
+  "feature_evidence.json": "Feature evidence report documenting two implemented features: a photo gallery displaying 8 user photos and a personalized closing message 'forever yours with love bablet', both with high confidence.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing an apology-themed application with photo gallery, romantic color scheme, and custom typography.",
+  "frontend/index.css": "Tailwind CSS configuration with CSS custom properties defining a neutral grayscale color system for light and dark modes using OKLCH color space.",
+  "frontend/index.html": "HTML entry point with title 'Sorry Aafu' that loads the React application from main.tsx.",
+  "frontend/src/App.tsx": "Main apology page component featuring heartfelt message to Aafu, PhotoGallery component, and 'forever yours with love bablet' closing message with romantic styling and background image.",
+  "frontend/src/components/PhotoGallery.tsx": "Photo gallery component displaying 8 Snapchat images in a responsive grid with loading states, hover effects, and elegant styling.",
+  "frontend/src/hooks/useActor.ts": "React hook that manages ICP backend actor creation with Internet Identity authentication, handling both authenticated and anonymous actors with query invalidation on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity persistence, and AuthClient configuration with idle handling disabled by default.",
+  "frontend/src/index.css": "Tailwind CSS styles with custom OKLCH color palette for apology theme (rose, coral, peach, lavender) supporting light and dark modes, plus Playfair Display serif font configuration.",
+  "frontend/src/main.tsx": "React application entry point that sets up QueryClient and InternetIdentityProvider wrappers around the main App component.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration with custom color palette using OKLCH color space, extended theme for apology-themed colors (rose, coral, peach, lavender), custom fonts (Inter, Playfair Display), and plugins for typography, container queries, and animations.",
+  "project_state.json": "Project state tracking file for an emotional apology website addressed to 'aafu', documenting 5 implemented features including single-page frontend, warm visual theme, background image, photo gallery with 8 Snapchat images, and personalized message from 'bablet'."
+}
